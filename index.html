@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Personal Portfolio Website</title>
     <link rel="stylesheet" href="style.css">
-    <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/3491f85d9f.js" crossorigin="anonymous"></script>
   </head>
   <body>
     <div id="header">
@@ -16,7 +16,7 @@
                 <ul id="sidemenu">
                     <li><a href="#header">Home</a></li>
                     <li><a href="#about">About</a></li>
-                    <li><a href="#services">Services</a></li>
+                    <li><a href="#expertise">Expertise</a></li>
                     <li><a href="#portfolio">Portfolio</a></li>
                     <li><a href="#contact">Contact</a></li>
                     <i class="fas fa-times" onclick="closemenu()"></i>
@@ -24,8 +24,8 @@
                 <i class="fas fa-bars" onclick="openmenu()"></i>
             </nav>
             <div class="header-text">
-                <p>UI/UX Designer</p>
-                <h1>Hi, I'm <span>Abdul Khan</span><br>From Canada</h1>
+                <p>Aspiring Software Engineer</p>
+                <h1>I'm <span>Abdul Khan -</span><br>A UTM CS Student</h1>
             </div>
         </div>
     </div>
@@ -39,12 +39,19 @@
                 </div>
                 <div class="about-col-2">
                     <h1 class="sub-title">About Me</h1>
-                    <p>Lorem ipsum, dolor sit amet consectetur 
-                    adipisicing elit. Voluptatibus rerum 
-                    laudantium saepe unde animi tenetur, quis 
-                    repellendus. Nobis iste quia ab, cum eius, 
-                    eaque eveniet voluptates, optio corrupti 
-                    dicta maxime.</p>
+                    <p>I'm Abdul Khan, a third-year computer science student at the University of Toronto Mississauga. 
+                    With a passion for web, app, and software development, I have honed my skills in Python, Java, Kotlin, 
+                    Figma, HTML, CSS, and JavaScript. I am also currently learning React and Next.js to create an enhanced 
+                    version of Notion alongside a group of 7 people using the Agile model. My academic journey, including 
+                    relevant courses and external experiences, has equipped me with a strong foundation in programming 
+                    and problem-solving. As a diligent and design-oriented individual, I have created several projects 
+                    such as a local video player extension and a ChatGPT powered AI translator. Beyond coding, I am highly
+                    responsible, hardworking, and have an extreme passion for learning new things that I can implement 
+                    the next time I work on a project. In fact, I have a YouTube channel where I share AI and learning 
+                    videos to help others level up their skills and to express my love for new and practical technology. Thus,
+                    eager to continue learning and apply my knowledge, I am actively seeking opportunities to contribute to 
+                    innovative projects and gain practical experience. So connect with me on LinkedIn, explore my projects on 
+                    GitHub, or check out my YouTube channel to learn more about my work and interests.</p>
 
                     <div class="tab-titles">
                         <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
@@ -52,25 +59,39 @@
                         <p class="tab-links" onclick="opentab('education')">Education</p>
                     </div>
                     <div class="tab-contents active-tab" id="skills">
-                        <ul>
-                            <li><span>UI/UX</span><br>Designing Web/App Interfaces</li>
-                            <li><span>Web Development</span><br>Web App Development</li>
-                            <li><span>App Development</span><br>Building Android/iOS Apps</li>
+                        <ul style="display: flex; gap: 75px;">
+                            <li><span>Web Development</span>
+                                <br>HTML/CSS/JavaScript
+                                <br>React
+                                <br>Next.js
+                                <br>Firebase
+                            </li>
+                            <li><span>UI/UX</span>
+                                <br>Figma
+                                <br>Leonardo.AI
+                                <br>Photoshop
+                            </li>
+                            <li><span>Software Development</span>
+                                <br>Python
+                                <br>Java
+                                <br>C
+                                <br>Kotlin
+                                <br>GitHub
+                                <br>Unity
+                            </li>
                         </ul>
                     </div>
                     <div class="tab-contents" id="experience">
                         <ul>
-                            <li><span>2021 - Current</span><br>UI/UX Design Training at ET</li>
-                            <li><span>2019 - 2021</span><br>Team Lead at StarApp LLC.</li>
-                            <li><span>2017 - 2019</span><br>UI/UX Design Executive at Coin Digital Ltd.</li>
-                            <li><span>2016 - 2017</span><br>Internship at ekart eCommerce.</li>
+                            <li><span>2020</span><br>Co-op at Studica</li>
+                            <li><span>2023</span><br>Microsoft AI Classroom Hackathon</li>
                         </ul>
                     </div>
                     <div class="tab-contents" id="education">
                         <ul>
-                            <li><span>2016</span><br>UI/UX Desing Training at ET Institute</li>
-                            <li><span>2016</span><br>MBA from MIT Bangalore</li>
-                            <li><span>2014</span><br>BBA from ISM Bangalore</li>
+                            <li><span>2017 - 2021</span><br>Rick Hansen Secondary School</li>
+                            <li><span>2020</span><br>Hardware, Troubleshooting and Maintenance Course at Sheridan College</li>
+                            <li><span>2021 - Current</span><br>University of Toronto [Computer Science & TCS Major]</li>
                         </ul>
                     </div>
                 </div>
@@ -78,88 +99,360 @@
         </div>
     </div>
 
-    <!---------services----------->
-    <div id="services">
+    <!---------Expertise----------->
+    <div id="expertise">
         <div class="container">
-            <h1 class="sub-title">My Services</h1>
-            <div class="services-list">
-                <div>
+            <h1 class="sub-title">My Expertise</h1>
+            <div class="expertise-list">
+                <div id="webDiv">
                     <i class="fas fa-code"></i>
-                    <h2>Web Design</h2>
-                    <p>Lorem, ipsum dolor sit amet consectetur 
-                    adipisicing elit. Enim provident commodi, 
-                    unde corrupti ad eos, eaque incidunt debitis, 
-                    praesentium doloribus quae voluptas minima 
-                    voluptates velit ut? Excepturi in consectetur 
-                    doloremque?</p>
-                    <a href="#">Learn More</a>
+                    <h2>Web Development</h2>
+                    <p>As a junior web developer, I love experimenting with 
+                        various technologies to build dynamic applications. 
+                        With experience in AI, Firebase, GitHub, and ongoing
+                        learning in Next.js and React, my goal is to learn 
+                        new skills to build innovative applications that meet 
+                        user needs. This journey reflects my technical adaptability
+                        and passion for crafting seamless user experiences backed 
+                        by robust functionalities.
+                    </p>
+                    <a href="#firstWebProject">Learn More</a>
                 </div>
-                <div>
+                <div id="uiDiv">
                     <i class="fas fa-crop-alt"></i>
                     <h2>UI/UX Design</h2>
-                    <p>Lorem, ipsum dolor sit amet consectetur 
-                    adipisicing elit. Enim provident commodi, 
-                    unde corrupti ad eos, eaque incidunt debitis, 
-                    praesentium doloribus quae voluptas minima 
-                    voluptates velit ut? Excepturi in consectetur 
-                    doloremque?</p>
-                    <a href="#">Learn More</a>
+                    <p>As a UI/UX designer, I blend creativity with 
+                        user-centric design principles, focusing on
+                        the user experience from the start. Using tools 
+                        like Figma, I've crafted engaging interfaces 
+                        with a focus on usability and accessibility. 
+                        The Acme De La Vie App Wireframe and Productivity
+                        Website Wireframe showcase my ability to 
+                        translate complex ideas into elegant and 
+                        functional designs.
+                    </p>
+                    <a href="#firstUIProject">Learn More</a>
                 </div>
-                <div>
-                    <i class="fab fa-app-store"></i>
-                    <h2>App Design</h2>
-                    <p>Lorem, ipsum dolor sit amet consectetur 
-                    adipisicing elit. Enim provident commodi, 
-                    unde corrupti ad eos, eaque incidunt debitis, 
-                    praesentium doloribus quae voluptas minima 
-                    voluptates velit ut? Excepturi in consectetur 
-                    doloremque?</p>
-                    <a href="#">Learn More</a>
+                <div id="softwareDiv">
+                    <i class="fa-solid fa-terminal"></i>
+                    <h2>Software Development</h2>
+                    <p>In software development, I bring diverse 
+                        expertise, from AI applications and game 
+                        development to Python-based solutions. 
+                        Projects like the AI Art Generator, Unity 
+                        Underwater Game, and Todo List Application 
+                        highlight my commitment to pushing the 
+                        boundaries of software capabilities while 
+                        delivering practical and efficient solutions.
+                    </p>
+                    <a href="#firstSoftwareProject">Learn More</a>
                 </div>
             </div>
         </div>
     </div>
-
+    
     <!------------------Portfolio--------->
-    <div id="Portfolio">
+    <div id="portfolio">
         <div class="container">
             <h1 class="sub-title">My Work</h1>
             <div class="work-list">
-                <div class="work">
-                    <img src="images/work-1.png">
+                <div class="work" id="firstWebProject">
+                    <img src="images/Project (21).png">
                     <div class="layer">
-                        <h3>Social Media App</h3>
-                        <p>The app connects you to the talented
-                            peoplp around the world. Download it
-                            from the play store.
+                        <h3><b>Next.js Productivity Project</b></h3>
+                        <p>I am currently working with a group of 7 people 
+                            to create a Notion-like productivity website 
+                            using the Agile model, MUI widgets, Next.js, 
+                            Firebase authentication, and a PostgreSQL database.
                         </p>
-                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                        <a href="https://github.com/AbdulDevHub/Cloned-Opalescence-Productivity-Project" target="_blank">
+                            <i class="fas fa-external-link-alt"></i>
+                        </a>
                     </div>
                 </div>
                 <div class="work">
-                    <img src="images/work-2.png">
+                    <img src="images/Project (17).png">
                     <div class="layer">
-                        <h3>Music App</h3>
-                        <p>The app connects you to the talented
-                            peoplp around the world. Download it
-                            from the play store.
+                        <h3><b>React Static Page</b></h3>
+                        <p>I am currently learning React so currently
+                            I have only made this static page but I will
+                            soon be posting further more advanced projects
+                            within the coming weeks.
                         </p>
-                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                        <a href="https://github.com/AbdulDevHub/My-React-And-Next.js-Projects" target="_blank">
+                            <i class="fas fa-external-link-alt"></i>
+                        </a>
                     </div>
                 </div>
                 <div class="work">
-                    <img src="images/work-3.png">
+                    <img src="images/Project (7).png">
                     <div class="layer">
-                        <h3>Online Shopping App</h3>
-                        <p>The app connects you to the talented
-                            peoplp around the world. Download it
-                            from the play store.
+                        <h3><b>Local Video Player Extension</b></h3>
+                        <p>This is a chrome extension that plays local videos
+                            on the browser along with features like 0.10x to 
+                            16x video speed, strech video to fill screen 
+                            (only for 16:10 screens), a video seeker, and
+                            keyboard shortcuts.
                         </p>
-                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                        <a href="https://github.com/AbdulDevHub/Chrome-Extensions/tree/main/My%20Personal%20Extensions/Local%20Video%20Player" target="_blank">
+                            <i class="fas fa-external-link-alt"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/Project (6).png">
+                    <div class="layer">
+                        <h3><b>Linkest Extension</b></h3>
+                        <p>This is a chrome extension that lets users
+                            take notes, save tab links, open local files 
+                            on the browser, and Google search saved text 
+                            with one click.
+                        </p>
+                        <a href="https://github.com/AbdulDevHub/Chrome-Extensions/tree/main/My%20Personal%20Extensions/Linkest" target="_blank">
+                            <i class="fas fa-external-link-alt"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/Project (12).png">
+                    <div class="layer">
+                        <h3><b>AI Art Generator</b></h3>
+                        <p>This app uses the Dall-E API to generate
+                            an image based on user input.
+                        </p>
+                        <a href="https://github.com/AbdulDevHub/My-AI-Apps/tree/main/AI%20Art%20Generator" target="_blank">
+                            <i class="fas fa-external-link-alt"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/Project (13).png">
+                    <div class="layer">
+                        <h3><b>AI Translator</b></h3>
+                        <p>This app uses the ChatGPT API to translate
+                            user input into the selected language.
+                        </p>
+                        <a href="https://github.com/AbdulDevHub/My-AI-Apps/tree/main/AI%20Translator" target="_blank">
+                            <i class="fas fa-external-link-alt"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/Project (14).png">
+                    <div class="layer">
+                        <h3><b>AI Stock App</b></h3>
+                        <p>This app uses the polygon.io and ChatGPT API
+                            to fetch stock data and analyze it. 
+                            It then informs the user if their inputted
+                            stock is a good investment.
+                        </p>
+                        <a href="https://github.com/AbdulDevHub/My-AI-Apps/tree/main/Dodgey%20Dave%20AI%20App" target="_blank">
+                            <i class="fas fa-external-link-alt"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/Project (19).png">
+                    <div class="layer">
+                        <h3><b>Firebase Cart App</b></h3>
+                        <p>This is a simple shopping car progressive web app I made
+                            to test out Firebase Realtime Database. It allows
+                            users to store their grocery list in the app through the 
+                            database, making it easy to remember what they need to buy.
+                        </p>
+                        <a href="https://github.com/AbdulDevHub/My-Firebase-Apps/tree/main/Firebase%20Add%20To%20Cart%20App" target="_blank">
+                            <i class="fas fa-external-link-alt"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/Project (20).png">
+                    <div class="layer">
+                        <h3><b>Firebase Social Media App</b></h3>
+                        <p>This is a simple social media progressive web app I made
+                            to test out Firebase authentication and Cloud Firestore.
+                            The app lets a user sign in with email or Google and lets them
+                            create posts which are stored in Firebase's database.
+                        </p>
+                        <a href="https://github.com/AbdulDevHub/My-Firebase-Apps/tree/main/Firebase%20Social%20App" target="_blank">
+                            <i class="fas fa-external-link-alt"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/Project (11).png">
+                    <div class="layer">
+                        <h3><b>Text To Speech</b></h3>
+                        <p>This is a simple web app tha uses one of the 
+                            Hugging Face APIs to turn text into speech
+                            using AI.
+                        </p>
+                        <a href="https://github.com/AbdulDevHub/My-AI-Apps/tree/main/Text%20To%20Speech" target="_blank">
+                            <i class="fas fa-external-link-alt"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/Project (15).png">
+                    <div class="layer">
+                        <h3><b>Vision AI App</b></h3>
+                        <p>This is a simple web app tha uses one of the 
+                            Hugging Face APIs to label objects within
+                            an image using Vision AI.
+                        </p>
+                        <a href="https://github.com/AbdulDevHub/My-AI-Apps/tree/main/Vision%20AI%20App" target="_blank">
+                            <i class="fas fa-external-link-alt"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/Project (16).png">
+                    <div class="layer">
+                        <h3><b>AI Agent Chatbot</b></h3>
+                        <p>This isn't just a ChatGPT powered chatbot,
+                            this is an AI that is able to call functions
+                            to accomplish actual tasks based on user prompt.
+                            Currently it can only call the getCurrentWheather &
+                            getLocation functions.
+                        </p>
+                        <a href="https://github.com/AbdulDevHub/My-AI-Apps/tree/main/ReAct%20AI%20Agent%20With%20Chat%20UI" target="_blank">
+                            <i class="fas fa-external-link-alt"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/Project (18).png">
+                    <div class="layer">
+                        <h3><b>Twitter Clone</b></h3>
+                        <p>This is a simple Twitter clone web app that 
+                            I made by watching an online course that 
+                            taught me furhter core javascript concepts.
+                        </p>
+                        <a href="https://github.com/AbdulDevHub/Twitter-Clone" target="_blank">
+                            <i class="fas fa-external-link-alt"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="work softwareProject" id="firstSoftwareProject">
+                    <img src="images/Project (1).png">
+                    <div class="layer">
+                        <h3><b>Unity Underwater Game</b></h3>
+                        <p>This is underwater treasure hunt game
+                            that I made using Maya, C#, Adobe Audition,
+                            and Unity. You play as a diver looking for 3
+                            keys to open a sunken chest in an immersvise
+                            and vibrant underwater enviroment, all while 
+                            evading blood-thirsty sharks.
+                        </p>
+                        <a href="https://drive.google.com/file/d/1YxazFiaz7mzQGSIvxFZEZn0RkmqnBNvy/view?usp=sharing" target="_blank">
+                            <i class="fas fa-external-link-alt"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="work softwareProject">
+                    <img src="images/Project (2).png">
+                    <div class="layer">
+                        <h3><b>Space Invader</b></h3>
+                        <p>This is an advanced version of the 
+                            Space Invaders game which uses the 
+                            pygame library to create features
+                            like spawning enemies, a giant final boss,
+                            dynamic music, and various powerups.
+                        </p>
+                        <a href="https://github.com/AbdulDevHub/SpaceInvaders" target="_blank">
+                            <i class="fas fa-external-link-alt"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="work softwareProject">
+                    <img src="images/Project (9).png">
+                    <div class="layer">
+                        <h3><b>Todo List Application</b></h3>
+                        <p>This is a python application that uses
+                            the Tkinter, Pickle, Json, and Matplotlib 
+                            modules to allow the user to create, edit, 
+                            save, retrieve,and delete tasks. It also
+                            allows users to set reminders and to track
+                            their task creation, editing, and deletion
+                            by displaying it as a graph.
+                        </p>
+                        <a href="https://github.com/AbdulDevHub/TkinterToDoList" target="_blank">
+                            <i class="fas fa-external-link-alt"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="work softwareProject">
+                    <img src="images/Project (8).png">
+                    <div class="layer">
+                        <h3><b>Huffman Compress Algorithm</b></h3>
+                        <p>This is a simple python program that
+                            takes in a file and compresses it using
+                            the huffman algorithm. It also allows
+                            for uncompressing afterwards.
+                        </p>
+                        <a href="https://github.com/AbdulDevHub/Huffman-Compress/tree/main" target="_blank">
+                            <i class="fas fa-external-link-alt"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="work softwareProject">
+                    <img src="images/Project (10).png">
+                    <div class="layer">
+                        <h3><b>Map Plotting & Search</b></h3>
+                        <p>The is a python program which uses
+                            fake phone & billing data for customers 
+                            to plot them on the map. It also allows
+                            you to filter and access their individual data.
+                        </p>
+                        <a href="https://github.com/AbdulDevHub/Map-Plotting-Search" target="_blank">
+                            <i class="fas fa-external-link-alt"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="work uiProject">
+                    <img src="images/Project (4).png">
+                    <div class="layer">
+                        <h3><b>Acme De La Vie App Wireframe</b></h3>
+                        <p>The is a Figma wireframe for an app based
+                            on the Acme De La Vie clothing store website.
+                            This was made in a group of 4 people using 
+                            extensive background and user reserach.
+                        </p>
+                        <a href="https://www.figma.com/file/kADx4p9ZRCVGOGD0eeHWUJ/Acme-De-La-Vie-App-Design?type=design&mode=design&t=IQ6qG95QhBMW04do-1" target="_blank">
+                            <i class="fas fa-external-link-alt"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="work uiProject" id="firstUIProject">
+                    <img src="images/Project (3).png">
+                    <div class="layer">
+                        <h3><b>Productivity Website Wireframe</b></h3>
+                        <p>The is a Figma wireframe for a productivy &
+                            Notion like website that is currently being 
+                            used by my group of 7 to create a working 
+                            prototype of the website.
+                        </p>
+                        <a href="https://www.figma.com/file/HSrBSJcjruF7Gwhl08EuK3/Productivity-Website-Wireframe?type=design&mode=design&t=IQ6qG95QhBMW04do-1" target="_blank">
+                            <i class="fas fa-external-link-alt"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="work uiProject">
+                    <img src="images/Project (5).png">
+                    <div class="layer">
+                        <h3><b>Health Check In App Wireframe</b></h3>
+                        <p>The is a Figma wireframe for a Health Check
+                            In app that outlines how people can use an app
+                            to sign in to a hospital instead of manually
+                            talking to the front desk, thus speeding up the process.
+                        </p>
+                        <a href="https://www.figma.com/file/9hS9qkz5G8J5AMeQS0m1Uh/Health-Check-In-Application?type=design&mode=design&t=IQ6qG95QhBMW04do-1" target="_blank">
+                            <i class="fas fa-external-link-alt"></i>
+                        </a>
                     </div>
                 </div>
             </div>
-            <a href="#" class="btn">See More</a>
+            <a href="#expertise" class="btn">Go Back To Expertise</a>
         </div>
     </div>
 
@@ -169,18 +462,17 @@
             <div class="row">
                 <div class="contact-left">
                     <h1 class="sub-title">Contact Me</h1>
-                    <p><i class="fas fa-paper-plane"></i>contact@example.com</p>
-                    <p><i class="fas fa-paper-plane"></i>0123456789</p>
+                    <p><i class="fa-solid fa-paper-plane"></i>ahkn63@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i>647-783-1221</p>
                     <div class="social-icons">
-                        <a href="https://facebook.com/"><i class="fab fa-facebook"></i></a>
-                        <a href=""><i class="fab fa-twitter-square"></i></a>
-                        <a href=""><i class="fab fa-instagram"></i></a>
-                        <a href=""><i class="fab fa-linkedin"></i></a>
+                        <a href="https://www.linkedin.com/in/abdul-hadi-khan/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/AbdulDevHub" target="_blank"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.youtube.com/@learningexpressway/videos" target="_blank"><i class="fa-brands fa-youtube"></i></a>
                     </div>
                     <a href="images/my-cv.pdf" download class="btn btn2">Download CV</a>
                 </div>
                 <div class="contact-right">
-                    <form>
+                    <form action="https://formspree.io/f/mrgwnkgq" method="POST" id="contactForm">
                         <input type="text" name="Name" placeholder="Your Name" required>
                         <input type="email" name="email" placeholder="Your Email" required>
                         <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
@@ -191,7 +483,7 @@
             </div>
         </div>
         <div class="copyright">
-            <p>Copyright Abdul. Made by Easy Tutorials</p>
+            <p>Site Developed With Excellence In Coding And Design</p>
         </div>
     </div>
 
@@ -221,22 +513,39 @@
     </script>
 
     <script>
-        const scriptURL = "i would rather implement an email functionality";
-        const form = document.forms['submit-to-google-sheet']
-        const msg = document.getElementById("msg");
+        const form = document.getElementById('contactForm');
+        const msg = document.getElementById('msg');
 
-        form.addEventListener('submit', e => {
-            e.preventDefault()
-            fetch(scriptURL, {method:'POST', body: new FormData(form)})
-                .then(Response => {
-                    msg.innerHTML = "Message Sent Successfully"
-                    setTimeout(function(){
-                        msg.innerHTML = ""
-                    }, 5000)
-                    form.reset()
-                })
-                .catch(error => console.error('Error!', error.message))
-        })
+        form.addEventListener('submit', async (e) => {
+            e.preventDefault();
+
+            try {
+                // Submit the form to Formspree
+                const response = await fetch(form.action, {
+                    method: 'POST',
+                    body: new FormData(form),
+                    headers: {
+                        'Accept': 'application/json'
+                    },
+                });
+
+                if (response.ok) {
+                    // Display success message
+                    msg.innerHTML = 'Message Sent Successfully';
+
+                    // Reset the form
+                    form.reset();
+
+                    setTimeout(() => {
+                        msg.innerHTML = '';
+                    }, 5000);
+                } else {
+                    throw new Error('Form submission failed');
+                }
+            } catch (error) {
+                console.error('Error!', error.message);
+            }
+        });
     </script>
 
   </body>
