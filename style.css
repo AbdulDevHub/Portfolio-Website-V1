@@ -116,7 +116,7 @@ nav ul li a:hover::after{
 
 .tab-titles{
     display: flex;
-    margin: 20px 0 40px;
+    margin: 35px 0 25px;
 }
 
 .tab-links{
