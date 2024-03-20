@@ -304,11 +304,11 @@ a .fa-external-link-alt {
     font-size: 24px;
 }
 
-.softwareProject .layer a{
+.softwareProject .layer a .fa-github{
     color: #3ed71c;
 }
 
-.uiProject .layer a{
+.uiProject .layer a .fa-figma{
     color: #1c2ad7;
 }
 
