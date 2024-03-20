@@ -278,7 +278,12 @@ nav ul li a:hover::after{
     margin-bottom: 20px;
 }
 
-.layer a{
+.link-container {
+    display: flex;
+    gap: 20px;
+}
+
+a .fa-external-link-alt {
     margin-top: 20px;
     color: #fea600;
     text-decoration: none;
@@ -289,6 +294,14 @@ nav ul li a:hover::after{
     height: 60px;
     border-radius: 50%;
     text-align: center;
+}
+
+.link-container a .fa-github {
+    font-size: 28px;
+}
+
+.link-container a .fa-figma {
+    font-size: 24px;
 }
 
 .softwareProject .layer a{
