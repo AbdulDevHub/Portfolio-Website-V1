@@ -12,6 +12,11 @@ html{
 body{
     background: #080808;
     color: #fff;
+    cursor: url("images/cursor/cursor.svg"), auto !important;
+}
+
+a, .links, button, .tab-links {
+    cursor: url("images/cursor/pointer.svg"), auto !important;
 }
 
 #header{
