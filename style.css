@@ -420,6 +420,10 @@ nav .fas{
         background-image: url(images/phone-background.png);
     }
 
+    #sidemenu {
+        right: -200px;
+    }
+
     .header-text{
         margin-top: 100%;
         font-size: 16px;
