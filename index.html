@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" type="image/x-icon" href="images/favicon.png" />
     <script src="https://kit.fontawesome.com/3491f85d9f.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
   </head>
   <body>
     <div id="header">
@@ -20,9 +21,9 @@
                     <li><a href="#expertise">Expertise</a></li>
                     <li><a href="#portfolio">Portfolio</a></li>
                     <li><a href="#contact">Contact</a></li>
-                    <i class="fas fa-times" onclick="closemenu()"></i>
+                    <i class="fas fa-times" onclick="closeMenu()"></i>
                 </ul>
-                <i class="fas fa-bars" onclick="openmenu()"></i>
+                <i class="fas fa-bars" onclick="openMenu()"></i>
             </nav>
             <div class="header-text">
                 <p>Aspiring Software Engineer</p>
@@ -56,9 +57,9 @@
                     GitHub, or check out my YouTube channel to learn more about my work and interests.</p>
 
                     <div class="tab-titles">
-                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
-                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
-                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                        <p class="tab-links active-link" onclick="openTab('skills')">Skills</p>
+                        <p class="tab-links" onclick="openTab('experience')">Experience</p>
+                        <p class="tab-links" onclick="openTab('education')">Education</p>
                     </div>
                     <div class="tab-contents active-tab" id="skills">
                         <ul style="display: flex; gap: 75px;">
@@ -360,7 +361,7 @@
                         <p>This isn't just a ChatGPT powered chatbot,
                             this is an AI that is able to call functions
                             to accomplish actual tasks based on user prompt.
-                            Currently it can only call the getCurrentWheather &
+                            Currently it can only call the getCurrentWeather &
                             getLocation functions.
                         </p>
                         <div class="link-container">
@@ -376,7 +377,7 @@
                         <h3><b>Twitter Clone</b></h3>
                         <p>This is a simple Twitter clone web app that 
                             I made by watching an online course that 
-                            taught me furhter core javascript concepts.
+                            taught me further core javascript concepts.
                         </p>
                         <div class="link-container">
                             <a href="https://github.com/AbdulDevHub/Simple-Web-Projects/tree/main/Twitter%20Clone" target="_blank">
@@ -392,8 +393,8 @@
                         <p>This is underwater treasure hunt game
                             that I made using Maya, C#, Adobe Audition,
                             and Unity. You play as a diver looking for 3
-                            keys to open a sunken chest in an immersvise
-                            and vibrant underwater enviroment, all while 
+                            keys to open a sunken chest in an immersive
+                            and vibrant underwater environment, all while 
                             evading blood-thirsty sharks.
                         </p>
                         <div class="link-container">
@@ -411,7 +412,7 @@
                             Space Invaders game which uses the 
                             pygame library to create features
                             like spawning enemies, a giant final boss,
-                            dynamic music, and various powerups.
+                            dynamic music, and various power ups.
                         </p>
                         <div class="link-container">
                             <a href="https://github.com/AbdulDevHub/SpaceInvaders" target="_blank">
@@ -446,7 +447,7 @@
                         <p>This is a simple python program that
                             takes in a file and compresses it using
                             the huffman algorithm. It also allows
-                            for uncompressing afterwards.
+                            for decompressing afterwards.
                         </p>
                         <div class="link-container">
                             <a href="https://github.com/AbdulDevHub/Huffman-Compress/tree/main" target="_blank">
@@ -478,7 +479,7 @@
                         <p>The is a Figma wireframe for an app based
                             on the Acme De La Vie clothing store website.
                             This was made in a group of 4 people using 
-                            extensive background and user reserach.
+                            extensive background and user research.
                         </p>
                         <div class="link-container">
                             <a href="https://www.figma.com/file/kADx4p9ZRCVGOGD0eeHWUJ/Acme-De-La-Vie-App-Design?type=design&mode=design&t=IQ6qG95QhBMW04do-1" target="_blank">
@@ -491,7 +492,7 @@
                     <img src="images/Project (3).png">
                     <div class="layer">
                         <h3><b>Productivity Website Wireframe</b></h3>
-                        <p>The is a Figma wireframe for a productivy &
+                        <p>The is a Figma wireframe for a productivity &
                             Notion like website that is currently being 
                             used by my group of 7 to create a working 
                             prototype of the website.
@@ -569,67 +570,5 @@
             <p>Site Developed With Excellence In Coding And Design</p>
         </div>
     </div>
-
-    <script>
-        var tablinks = document.getElementsByClassName("tab-links");
-        var tabcontents = document.getElementsByClassName("tab-contents");
-        function opentab(tabname){
-            for(tablink of tablinks){
-                tablink.classList.remove("active-link");
-            }
-            for(tabcontent of tabcontents){
-                tabcontent.classList.remove("active-tab");
-            }
-            event.currentTarget.classList.add("active-link");
-            document.getElementById(tabname).classList.add("active-tab");
-        }
-    </script>
-
-    <script>
-        var sidemenu = document.getElementById("sidemenu");
-        function openmenu(){
-            sidemenu.style.right = "0";
-        }
-        function closemenu(){
-            sidemenu.style.right = "-200px";
-        }
-    </script>
-
-    <script>
-        const form = document.getElementById('contactForm');
-        const msg = document.getElementById('msg');
-
-        form.addEventListener('submit', async (e) => {
-            e.preventDefault();
-
-            try {
-                // Submit the form to Formspree
-                const response = await fetch(form.action, {
-                    method: 'POST',
-                    body: new FormData(form),
-                    headers: {
-                        'Accept': 'application/json'
-                    },
-                });
-
-                if (response.ok) {
-                    // Display success message
-                    msg.innerHTML = 'Message Sent Successfully';
-
-                    // Reset the form
-                    form.reset();
-
-                    setTimeout(() => {
-                        msg.innerHTML = '';
-                    }, 5000);
-                } else {
-                    throw new Error('Form submission failed');
-                }
-            } catch (error) {
-                console.error('Error!', error.message);
-            }
-        });
-    </script>
-
   </body>
 </html>
