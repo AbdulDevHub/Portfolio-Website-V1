@@ -428,6 +428,14 @@ nav .fas {
     right: -200px;
   }
 
+  .fa-bars {
+    cursor: url("images/cursor/pointer.svg"), auto !important;
+  }
+  
+  .fa-times {
+    cursor: url("images/cursor/pointer.svg"), auto !important;
+  }
+
   .header-text {
     margin-top: 100%;
     font-size: 16px;

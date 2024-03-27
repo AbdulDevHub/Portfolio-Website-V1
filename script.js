@@ -20,7 +20,11 @@ function openTab(tabName) {
 
 
 // ------------------------ SIDE MENU FUNCTIONS ------------------------
-var sideMenu = document.getElementById("sideMenu");
+let sideMenu;
+document.addEventListener('DOMContentLoaded', (event) => {
+  sideMenu = document.getElementById('sideMenu');
+});
+
 /**
  * Opens the side menu by setting the right CSS property of the sideMenu element to "0".
  *
