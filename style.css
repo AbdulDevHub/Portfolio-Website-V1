@@ -12,20 +12,20 @@ html {
 body {
   background: #080808;
   color: #fff;
-  cursor: url("images/cursor/cursor.svg"), auto !important;
+  cursor: url("images/Cursor/cursor.svg"), auto !important;
 }
 
 a,
 .links,
 button,
 .tab-links {
-  cursor: url("images/cursor/pointer.svg"), auto !important;
+  cursor: url("images/Cursor/pointer.svg"), auto !important;
 }
 
 #header {
   width: 100%;
   height: 100vh;
-  background-image: url(images/background.png);
+  background-image: url(images/Primary\ IMages/background.png);
   background-size: cover;
   background-position: center;
 }
@@ -421,7 +421,7 @@ nav .fas {
 
 @media only screen and (max-width: 600px) {
   #header {
-    background-image: url(images/phone-background.png);
+    background-image: url(images/Primary\ Images/phone-background.png);
   }
 
   #sideMenu {
@@ -429,11 +429,11 @@ nav .fas {
   }
 
   .fa-bars {
-    cursor: url("images/cursor/pointer.svg"), auto !important;
+    cursor: url("images/Cursor/pointer.svg"), auto !important;
   }
   
   .fa-times {
-    cursor: url("images/cursor/pointer.svg"), auto !important;
+    cursor: url("images/Cursor/pointer.svg"), auto !important;
   }
 
   .header-text {
