@@ -1,5 +1,9 @@
 # Abdul Hadi Khan's Portfolio Website
 
+<a href="https://abdulhadikhan.netlify.app/" target="_blank" rel="noreferrer"> 
+  <img height="400" src="./images/Screenshot.png">
+</a>
+
 ## Overview
 
 This repository contains the code for my personal portfolio website. The website showcases my projects, skills, and experiences.
