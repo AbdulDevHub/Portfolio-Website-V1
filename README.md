@@ -16,10 +16,4 @@ This repository contains the code for my personal portfolio website. The website
 - **Projects**: A showcase of my projects with links to the GitHub repositories.
 - **Contact**: A section with my contact information and social media links.
 
-## Technologies Used
-
-- HTML
-- CSS
-- JavaScript
-
 <br>
