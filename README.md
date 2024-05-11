@@ -1,4 +1,4 @@
-# Abdul Hadi Khan's Portfolio Website
+# Abdul Hadi Khan's Basic Portfolio Website
 
 <a href="https://abdulhadikhan.netlify.app/" target="_blank" rel="noreferrer"> 
   <img height="400" src="./images/Screenshot.png">
