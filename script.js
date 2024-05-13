@@ -18,7 +18,6 @@ function openTab(tabName) {
   document.getElementById(tabName).classList.add("active-tab");
 }
 
-
 // ------------------------ SIDE MENU FUNCTIONS ------------------------
 let sideMenu;
 document.addEventListener('DOMContentLoaded', (event) => {

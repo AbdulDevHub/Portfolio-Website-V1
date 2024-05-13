@@ -425,27 +425,29 @@ nav .fas {
     position: fixed;
     width: 100%;
     height: 100vh;
-    z-index: -1;
   }
 
   #about {
     padding: 100px 0 80px 0;
     position: relative;
     transform: translateY(100vh);
-
     background-color: #080808;
+    z-index: 1;
   }
 
   #expertise {
     padding-top: 833px;
+    position: relative;
     background-color: #080808;
   }
 
   #portfolio {
+    position: relative;
     background-color: #080808;
   }
 
   #contact {
+    position: relative;
     background-color: #080808;
   }
 }
