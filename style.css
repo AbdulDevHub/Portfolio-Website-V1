@@ -129,6 +129,9 @@ nav ul li a:hover::after {
 .about-col-1 img {
   width: 100%;
   border-radius: 15px;
+  height: 100%;
+  object-fit: cover;
+  object-position: right;
 }
 
 .about-col-2 {
@@ -192,6 +195,22 @@ nav ul li a:hover::after {
   display: block;
 }
 
+#skills ul {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(40px, 1fr));
+  gap: 10px;
+  margin-left: -10px;
+  margin-top: 30px;
+  justify-items: center;
+  align-items: center;
+}
+
+#skills ul a img {
+  width: 35px;
+  height: 35px;
+  object-fit: cover;
+}
+
 /*------------------Expertise-----------*/
 #expertise {
   padding: 30px 0;
@@ -207,7 +226,8 @@ nav ul li a:hover::after {
 .expertise-list div {
   background: #262626;
   padding: 40px;
-  font-size: 13px;
+  font-size: 15px;
+  line-height: 1.4em;
   font-weight: 300;
   border-radius: 10px;
   transition: background 0.5s, transform 0.5s;
@@ -224,12 +244,9 @@ nav ul li a:hover::after {
   margin-bottom: 15px;
 }
 
-.expertise-list div a {
+.expertise-list a {
   text-decoration: none;
-  color: #fff;
-  font-size: 12px;
-  margin-top: 20px;
-  display: inline-block;
+  color: #ffffff;
 }
 
 .expertise-list div:hover {
@@ -237,18 +254,18 @@ nav ul li a:hover::after {
 }
 
 #webDiv:hover {
-  background: #fea600;
-  cursor: url("images/Cursor/cursor.svg"), auto !important;
+  background: #1c2ad7;
+  cursor: url("images/Cursor/pointer.svg"), auto !important;
 }
 
 #uiDiv:hover {
-  background: #1c2ad7;
-  cursor: url("images/Cursor/cursor.svg"), auto !important;
+  background: #d80070;
+  cursor: url("images/Cursor/pointer.svg"), auto !important;
 }
 
 #softwareDiv:hover {
-  background: #3ed71c;
-  cursor: url("images/Cursor/cursor.svg"), auto !important;
+  background: #01b982;
+  cursor: url("images/Cursor/pointer.svg"), auto !important;
 }
 
 /*----------------Portfolio----------*/
@@ -439,6 +456,22 @@ form .btn2 {
   background: #262626;
   font-weight: 300;
   margin-top: 20px;
+  cursor: url("images/Cursor/pointer.svg"), auto !important;
+}
+
+.copyright:hover {
+  animation: color-rotate 15s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+#footer {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.copyright p span {
+  color: #fea600;
 }
 
 /*----------------Small Screen Responsiveness----------*/
@@ -617,96 +650,4 @@ nav .fas {
 
 ::-webkit-scrollbar-corner {
   background: none;
-}
-
-/*---------------- Materialize CSS ------------*/
-/*!
- * Waves v0.6.0
- * http://fian.my.id/Waves
- *
- * Copyright 2014 Alfiana E. Sibuea and other contributors
- * Released under the MIT license
- * https://github.com/fians/Waves/blob/master/LICENSE
- */
- .waves-effect {
-  position: relative;
-  cursor: pointer;
-  overflow: hidden;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-  -webkit-tap-highlight-color: transparent;
-  vertical-align: middle;
-  z-index: 1;
-  -webkit-transition: 0.3s ease-out;
-  transition: 0.3s ease-out;
-}
-
-.waves-effect .waves-ripple {
-  position: absolute;
-  border-radius: 50%;
-  width: 20px;
-  height: 20px;
-  margin-top: -10px;
-  margin-left: -10px;
-  opacity: 0;
-  background: rgba(0, 0, 0, 0.2);
-  -webkit-transition: all 0.7s ease-out;
-  transition: all 0.7s ease-out;
-  -webkit-transition-property: opacity, -webkit-transform;
-  transition-property: opacity, -webkit-transform;
-  transition-property: transform, opacity;
-  transition-property: transform, opacity, -webkit-transform;
-  -webkit-transform: scale(0);
-  transform: scale(0);
-  pointer-events: none;
-}
-
-.waves-effect.waves-light .waves-ripple {
-  background-color: rgba(255, 255, 255, 0.45);
-}
-
-.waves-effect.waves-red .waves-ripple {
-  background-color: rgba(244, 67, 54, 0.7);
-}
-
-.waves-effect.waves-yellow .waves-ripple {
-  background-color: rgba(255, 235, 59, 0.7);
-}
-
-.waves-effect.waves-orange .waves-ripple {
-  background-color: rgba(255, 152, 0, 0.7);
-}
-
-.waves-effect.waves-purple .waves-ripple {
-  background-color: rgba(156, 39, 176, 0.7);
-}
-
-.waves-effect.waves-green .waves-ripple {
-  background-color: rgba(76, 175, 80, 0.7);
-}
-
-.waves-effect.waves-teal .waves-ripple {
-  background-color: rgba(0, 150, 136, 0.7);
-}
-
-.waves-effect input[type="button"],
-.waves-effect input[type="reset"],
-.waves-effect input[type="submit"] {
-  border: 0;
-  font-style: normal;
-  font-size: inherit;
-  text-transform: inherit;
-  background: none;
-}
-
-.waves-effect img {
-  position: relative;
-  z-index: -1;
-}
-
-/* Firefox Bug: link not triggered */
-.waves-effect .waves-ripple {
-  z-index: -1;
 }
