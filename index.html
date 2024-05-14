@@ -11,11 +11,13 @@
       type="image/x-icon"
       href="images/Primary Images/favicon.png"
     />
+
     <script
       src="https://kit.fontawesome.com/3491f85d9f.js"
       crossorigin="anonymous"
     ></script>
     <script src="script.js"></script>
+    <script src="materialize.js"></script>
   </head>
   <body>
     <!--------- Hero Section ----------->
@@ -44,25 +46,26 @@
     <div id="about">
       <div class="container">
         <div class="row">
-          <div class="about-col-1">
+          <div class="about-col-1 waves-effect waves-light">
             <img src="images/Primary Images/user.png" />
           </div>
 
           <div class="about-col-2">
             <h1 class="sub-title">About Me</h1>
             <p id="bio-text">
-              I'm Abdul Khan, a Computer Science student at the University of Toronto Mississauga 🎓. 
-              With a passion for web, app, and software development, I have honed my skills in various
-              programming languages and concepts.
+              I'm Abdul Khan, a Computer Science student at the University of
+              Toronto Mississauga 🎓. With a passion for web, app, and software
+              development, I have honed my skills in various programming
+              languages and concepts.
               <br /><br />
               Some of my interests are in Web Development 🧑‍💻, UX Design ✨, and
               Artificial Intelligence 🛸. A few technologies I have been playing
               around with recently are Next.js, Three.js, and Nuxt.js.
               <br /><br />
-              Beyond coding, I love exploring 🔥 new things that I can implement on my next project 🚀. 
-              In fact, I have a YouTube channel where I share AI and learning videos to
-              help others level up their skills 💯 and to express my love for new
-              and practical technology.
+              Beyond coding, I love exploring 🔥 new things that I can implement
+              on my next project 🚀. In fact, I have a YouTube channel where I
+              share AI and learning videos to help others level up their skills
+              💯 and to express my love for new and practical technology.
             </p>
 
             <div class="tab-titles">
@@ -93,12 +96,14 @@
                 </li>
               </ul>
             </div>
+
             <div class="tab-contents" id="experience">
               <ul>
                 <li><span>2020</span><br />Co-op at Studica</li>
                 <li><span>2024 - Current</span><br />Co-op at InsideDesk</li>
               </ul>
             </div>
+
             <div class="tab-contents" id="education">
               <ul>
                 <li>
@@ -124,7 +129,7 @@
       <div id="expertise-parallax" class="container">
         <h1 class="sub-title">My Expertise</h1>
         <div class="expertise-list">
-          <div id="webDiv">
+          <div id="webDiv" class="waves-effect waves-light">
             <i class="fas fa-code"></i>
             <h2>Web Development</h2>
             <p>
@@ -138,7 +143,8 @@
             </p>
             <a href="#firstWebProject">Learn More</a>
           </div>
-          <div id="uiDiv">
+
+          <div id="uiDiv" class="waves-effect waves-light">
             <i class="fas fa-crop-alt"></i>
             <h2>UI/UX Design</h2>
             <p>
@@ -151,7 +157,8 @@
             </p>
             <a href="#firstUIProject">Learn More</a>
           </div>
-          <div id="softwareDiv">
+
+          <div id="softwareDiv" class="waves-effect waves-light">
             <i class="fa-solid fa-terminal"></i>
             <h2>Software Development</h2>
             <p>
@@ -630,7 +637,9 @@
             </div>
           </div>
         </div>
-        <a href="#expertise" class="btn">Go Back To Expertise</a>
+        <a href="#expertise-parallax" class="btn waves-effect waves-light"
+          >Go Back To Expertise</a
+        >
       </div>
     </div>
 
@@ -663,7 +672,7 @@
             <a
               href="images/Documents/Abdul Khan - Resume.pdf"
               download
-              class="btn btn2"
+              class="btn btn2 waves-effect waves-light"
               >Download CV</a
             >
           </div>
@@ -685,7 +694,9 @@
                 rows="6"
                 placeholder="Your Message"
               ></textarea>
-              <button type="submit" class="btn btn2">Submit</button>
+              <button type="submit" class="btn btn2 waves-effect waves-light">
+                Submit
+              </button>
             </form>
             <span id="msg"></span>
           </div>
