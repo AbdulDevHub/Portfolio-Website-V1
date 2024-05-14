@@ -75,22 +75,44 @@ nav ul li a:hover::after {
 
 .header-text {
   margin-top: 20%;
-  font-size: 30px;
+  font-size: 22px;
+  color: white;
 }
 
 .header-text h1 {
   font-size: 60px;
   margin-top: 20px;
+  color: #fea600;
 }
 
-.header-text h1 {
-  color: #fea600;
+.header-text h1 span {
+  font-size: 50px;
+}
+
+@keyframes color-rotate {
+  from {
+      filter: hue-rotate(0deg);
+  }
+  to {
+      filter: hue-rotate(360deg);
+  }
+}
+
+.header-text:hover {
+  animation: color-rotate 15s;
+  animation-iteration-count: infinite; 
+  animation-direction: alternate;
 }
 
 /*------------------about-----------*/
 #about {
   padding: 80px 0;
-  color: #ababab;
+  color: #b4b4b4
+}
+
+#bio-text {
+  padding-top: 15px;
+  font-size: 18px;
 }
 
 .row {
@@ -125,6 +147,7 @@ nav ul li a:hover::after {
 .tab-titles {
   display: flex;
   margin: 35px 0 25px;
+  color: white;
 }
 
 .tab-links {
