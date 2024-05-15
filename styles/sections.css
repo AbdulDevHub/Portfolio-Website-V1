@@ -12,20 +12,30 @@ html {
 body {
   background: #080808;
   color: #fff;
-  cursor: url("images/Cursor/cursor.svg"), auto !important;
+  cursor: url("../images/Cursor/cursor.svg"), auto !important;
 }
 
 a,
 .links,
 button,
 .tab-links {
-  cursor: url("images/Cursor/pointer.svg"), auto !important;
+  cursor: url("../images/Cursor/pointer.svg"), auto !important;
 }
 
+@keyframes color-rotate {
+  from {
+    filter: hue-rotate(0deg);
+  }
+  to {
+    filter: hue-rotate(360deg);
+  }
+}
+
+/*------------------ Hero Section ----------*/
 #header {
   width: 100%;
   height: 100vh;
-  background-image: url("images/Primary Images/background.png");
+  background-image: url("../images/Primary Images/background.png");
   background-size: cover;
   background-position: center;
 }
@@ -89,22 +99,13 @@ nav ul li a:hover::after {
   font-size: 50px;
 }
 
-@keyframes color-rotate {
-  from {
-    filter: hue-rotate(0deg);
-  }
-  to {
-    filter: hue-rotate(360deg);
-  }
-}
-
 .header-text:hover {
   animation: color-rotate 15s;
   animation-iteration-count: infinite;
   animation-direction: alternate;
 }
 
-/*------------------about-----------*/
+/*------------------ About Section-----------*/
 #about {
   padding: 80px 0;
   color: #b4b4b4;
@@ -199,7 +200,7 @@ nav ul li a:hover::after {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(40px, 1fr));
   gap: 10px;
-  margin-left: -10px;
+  margin-left: -5px;
   margin-top: 30px;
   justify-items: center;
   align-items: center;
@@ -211,7 +212,7 @@ nav ul li a:hover::after {
   object-fit: cover;
 }
 
-/*------------------Expertise-----------*/
+/*------------------ Expertise Section -----------*/
 #expertise {
   padding: 30px 0;
 }
@@ -255,20 +256,20 @@ nav ul li a:hover::after {
 
 #webDiv:hover {
   background: #1c2ad7;
-  cursor: url("images/Cursor/pointer.svg"), auto !important;
+  cursor: url("../images/Cursor/pointer.svg"), auto !important;
 }
 
 #uiDiv:hover {
   background: #d80070;
-  cursor: url("images/Cursor/pointer.svg"), auto !important;
+  cursor: url("../images/Cursor/pointer.svg"), auto !important;
 }
 
 #softwareDiv:hover {
   background: #01b982;
-  cursor: url("images/Cursor/pointer.svg"), auto !important;
+  cursor: url("../images/Cursor/pointer.svg"), auto !important;
 }
 
-/*----------------Portfolio----------*/
+/*---------------- Projects Section -----------*/
 #portfolio {
   padding: 50px 0;
 }
@@ -296,7 +297,7 @@ nav ul li a:hover::after {
 .layer {
   width: 100%;
   height: 0;
-  background: linear-gradient(rgba(0, 0, 0, 0.6), #ffbc41);
+  background: linear-gradient(rgba(0, 0, 0, 0.6), #1c2ad7);
   border-radius: 10px;
   position: absolute;
   left: 0;
@@ -313,11 +314,11 @@ nav ul li a:hover::after {
 }
 
 .softwareProject .layer {
-  background: linear-gradient(rgba(0, 0, 0, 0.6), #3ed71c);
+  background: linear-gradient(rgba(0, 0, 0, 0.6), #01b982);
 }
 
 .uiProject .layer {
-  background: linear-gradient(rgba(0, 0, 0, 0.6), #1c2ad7);
+  background: linear-gradient(rgba(0, 0, 0, 0.6), #d80070);
 }
 
 .layer h3 {
@@ -332,7 +333,7 @@ nav ul li a:hover::after {
 
 a .fa-external-link-alt {
   margin-top: 20px;
-  color: #fea600;
+  color: #1c2ad7;
   text-decoration: none;
   font-size: 18px;
   line-height: 60px;
@@ -351,12 +352,12 @@ a .fa-external-link-alt {
   font-size: 24px;
 }
 
-.softwareProject .layer a .fa-github {
-  color: #3ed71c;
+.uiProject .layer a .fa-figma {
+  color: #d80070;
 }
 
-.uiProject .layer a .fa-figma {
-  color: #1c2ad7;
+.softwareProject .layer a .fa-github {
+  color: #01b982;
 }
 
 .work:hover img {
@@ -383,7 +384,7 @@ a .fa-external-link-alt {
   background: #fea600;
 }
 
-/*----------------Contact----------*/
+/*---------------- Contact Section ----------*/
 .contact-left {
   flex-basis: 35%;
 }
@@ -449,6 +450,13 @@ form .btn2 {
   cursor: pointer;
 }
 
+#msg {
+  color: #61b752;
+  margin-top: -40px;
+  display: block;
+}
+
+/*---------------- Footer Section ----------*/
 .copyright {
   width: 100%;
   text-align: center;
@@ -456,7 +464,7 @@ form .btn2 {
   background: #262626;
   font-weight: 300;
   margin-top: 20px;
-  cursor: url("images/Cursor/pointer.svg"), auto !important;
+  cursor: url("../images/Cursor/pointer.svg"), auto !important;
 }
 
 .copyright:hover {
@@ -514,7 +522,7 @@ nav .fas {
 
 @media only screen and (max-width: 600px) {
   #header {
-    background-image: url(images/Primary\ Images/phone-background.png);
+    background-image: url("../images/Primary Images/background.png");
   }
 
   #sideMenu {
@@ -522,11 +530,11 @@ nav .fas {
   }
 
   .fa-bars {
-    cursor: url("images/Cursor/pointer.svg"), auto !important;
+    cursor: url("../images/Cursor/pointer.svg"), auto !important;
   }
 
   .fa-times {
-    cursor: url("images/Cursor/pointer.svg"), auto !important;
+    cursor: url("../images/Cursor/pointer.svg"), auto !important;
   }
 
   .header-text {
@@ -597,57 +605,4 @@ nav .fas {
   .copyright {
     font-size: 14px;
   }
-}
-
-#msg {
-  color: #61b752;
-  margin-top: -40px;
-  display: block;
-}
-
-/*----------------Project Pages----------*/
-.portfolio-item-individual {
-  padding: 0 2em 2em;
-  max-width: 1000px;
-  margin: 0 auto;
-}
-
-.portfolio-item-individual p {
-  max-width: 600px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-/*----------------Scrollbar----------*/
-::-webkit-scrollbar {
-  width: 10px;
-  height: 10px;
-  transition: 1s;
-}
-
-::-webkit-scrollbar-thumb {
-  background-color: rgba(127, 127, 127, 0.6);
-  background-clip: padding-box;
-  border: 2px solid transparent;
-  border-radius: 5px;
-  transition: 1s;
-}
-
-::-webkit-scrollbar-thumb:vertical:hover,
-::-webkit-scrollbar-thumb:horizontal:hover {
-  background-color: rgb(110, 110, 110);
-  transition: 0.3s;
-}
-
-::-webkit-scrollbar-track {
-  background-color: transparent;
-}
-
-::-webkit-scrollbar-thumb:vertical:active,
-::-webkit-scrollbar-thumb:horizontal:active {
-  background: rgba(95, 91, 91, 1);
-}
-
-::-webkit-scrollbar-corner {
-  background: none;
 }
