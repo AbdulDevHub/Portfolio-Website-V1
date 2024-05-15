@@ -125,6 +125,7 @@ nav ul li a:hover::after {
 .about-col-1 {
   flex-basis: 35%;
   border-radius: 15px;
+  cursor: url("../images/Cursor/pointer.svg"), auto !important;
 }
 
 .about-col-1 img {
@@ -342,6 +343,7 @@ a .fa-external-link-alt {
   height: 60px;
   border-radius: 50%;
   text-align: center;
+  cursor: url("../images/Cursor/pointer.svg"), auto !important;
 }
 
 .link-container a .fa-github {
