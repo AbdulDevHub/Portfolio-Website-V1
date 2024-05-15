@@ -1,0 +1,157 @@
+[
+    {
+        "href": "https://cprogramming.com/",
+        "imgSrc": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/c/c-original.svg",
+        "alt": "c"
+    },
+    {
+        "href": "https://www.w3schools.com/css/",
+        "imgSrc": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg",
+        "alt": "css3"
+    },
+    {
+        "href": "https://www.figma.com/",
+        "imgSrc": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/figma/figma-original.svg",
+        "alt": "figma"
+    },
+    {
+        "href": "https://firebase.google.com/",
+        "imgSrc": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/firebase/firebase-original.svg",
+        "alt": "firebase"
+    },
+    {
+        "href": "https://git-scm.com/",
+        "imgSrc": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg",
+        "alt": "git"
+    },
+    {
+        "href": "https://github.com/",
+        "imgSrc": "images/Dark Logos/GitHub.png",
+        "alt": "github"
+    },
+    {
+        "href": "https://www.w3.org/html/",
+        "imgSrc": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg",
+        "alt": "html5"
+    },
+    {
+        "href": "https://www.jetbrains.com/idea/",
+        "imgSrc": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/intellij/intellij-original.svg",
+        "alt": "intellij"
+    },
+    {
+        "href": "https://www.java.com",
+        "imgSrc": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg",
+        "alt": "java"
+    },
+    {
+        "href": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+        "imgSrc": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg",
+        "alt": "javascript"
+    },
+    {
+        "href": "https://jupyter.org/",
+        "imgSrc": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jupyter/jupyter-original.svg",
+        "alt": "jupyter"
+    },
+    {
+        "href": "https://kotlinlang.org",
+        "imgSrc": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/kotlin/kotlin-original.svg",
+        "alt": "kotlin"
+    },
+    {
+        "href": "https://www.mysql.com/",
+        "imgSrc": "images/Dark Logos/MySql.png",
+        "alt": "mysql"
+    },
+    {
+        "href": "https://mui.com/",
+        "imgSrc": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/materialui/materialui-original.svg",
+        "alt": "materialui"
+    },
+    {
+        "href": "https://www.netlify.com/",
+        "imgSrc": "images/Dark Logos/Netlify.png",
+        "alt": "netlify"
+    },
+    {
+        "href": "https://nextjs.org/",
+        "imgSrc": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg",
+        "alt": "nextjs"
+    },
+    {
+        "href": "https://www.photoshop.com/en",
+        "imgSrc": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/photoshop/photoshop-original.svg",
+        "alt": "photoshop"
+    },
+    {
+        "href": "https://playwright.dev/",
+        "imgSrc": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/playwright/playwright-original.svg",
+        "alt": "playwright"
+    },
+    {
+        "href": "https://postman.com",
+        "imgSrc": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postman/postman-original.svg",
+        "alt": "postman"
+    },
+    {
+        "href": "https://prismic.io",
+        "imgSrc": "images/Dark Logos/Prismic.png",
+        "alt": "prismic"
+    },
+    {
+        "href": "https://pptr.dev/",
+        "imgSrc": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/puppeteer/puppeteer-original.svg",
+        "alt": "puppeteer"
+    },
+    {
+        "href": "https://www.jetbrains.com/pycharm/",
+        "imgSrc": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/pycharm/pycharm-original.svg",
+        "alt": "pycharm"
+    },
+    {
+        "href": "https://www.python.org",
+        "imgSrc": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg",
+        "alt": "python"
+    },
+    {
+        "href": "https://reactjs.org/",
+        "imgSrc": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg",
+        "alt": "react"
+    },
+    {
+        "href": "https://tailwindcss.com/",
+        "imgSrc": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg",
+        "alt": "tailwind css"
+    },
+    {
+        "href": "https://threejs.org/",
+        "imgSrc": "images/Dark Logos/Threejs.png",
+        "alt": "three.js"
+    },
+    {
+        "href": "https://www.typescriptlang.org/",
+        "imgSrc": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg",
+        "alt": "typescript"
+    },
+    {
+        "href": "https://unity.com/",
+        "imgSrc": "images/Dark Logos/Unity.png",
+        "alt": "unity"
+    },
+    {
+        "href": "https://vercel.com/",
+        "imgSrc": "images/Dark Logos/Vercel.png",
+        "alt": "vercel"
+    },
+    {
+        "href": "https://vitejs.dev/",
+        "imgSrc": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vitejs/vitejs-original.svg",
+        "alt": "vitejs"
+    },
+    {
+        "href": "https://code.visualstudio.com/",
+        "imgSrc": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg",
+        "alt": "vscode"
+    }
+]
