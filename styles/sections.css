@@ -225,7 +225,6 @@ nav ul li a:hover::after {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 0;
 }
 
 #skills ul a img {
