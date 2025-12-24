@@ -44,9 +44,9 @@ document.addEventListener("DOMContentLoaded", function () {
         layer.className = "layer"
         work.appendChild(layer)
 
-        const h3 = document.createElement("h3")
-        h3.innerHTML = `<b>${project.title}</b>`
-        layer.appendChild(h3)
+        const h2 = document.createElement("h2")
+        h2.innerHTML = `<b>${project.title}</b>`
+        layer.appendChild(h2)
 
         const p = document.createElement("p")
         p.textContent = project.description

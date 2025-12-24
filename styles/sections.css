@@ -326,7 +326,7 @@ nav ul li a:hover::after {
   background: linear-gradient(rgba(0, 0, 0, 0.6), #d80070);
 }
 
-.layer h3 {
+.layer h2 {
   font-weight: 500;
   margin-bottom: 20px;
 }
