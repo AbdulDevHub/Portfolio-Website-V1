@@ -38,6 +38,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
         const img = document.createElement("img")
         img.src = project.image
+        img.alt = project.title
         work.appendChild(img)
 
         const layer = document.createElement("div")
@@ -56,10 +57,11 @@ document.addEventListener("DOMContentLoaded", function () {
         linkContainer.className = "link-container"
         layer.appendChild(linkContainer)
 
-        project.links.forEach((link) => {
+        project.links.forEach((link, index) => {
           const a = document.createElement("a")
           a.href = link.url
           a.target = "_blank"
+          a.setAttribute("aria-label", index === 0 ? `View ${project.title} live demo` : `View ${project.title} on GitHub`)
 
           const i = document.createElement("i")
           i.className = link.icon
