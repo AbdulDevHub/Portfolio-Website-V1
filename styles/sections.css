@@ -209,6 +209,13 @@ nav ul li a:hover::after {
   margin-top: 30px;
   justify-items: center;
   align-items: center;
+  list-style: none;
+}
+
+#skills ul li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 #skills ul a img {
@@ -430,6 +437,7 @@ a .fa-external-link-alt {
 .btn.btn2 {
   display: inline-block;
   background: #fea600;
+  font-weight: 600;
 }
 
 .contact-right form {

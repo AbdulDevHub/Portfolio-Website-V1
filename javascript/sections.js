@@ -6,10 +6,12 @@ document.addEventListener("DOMContentLoaded", function () {
       let ulElement = document.getElementById("skills-ul")
 
       jsonData.forEach((item) => {
+        let liElement = document.createElement("li")        
         let aElement = document.createElement("a")
         aElement.href = item.href
         aElement.target = "_blank"
         aElement.rel = "noreferrer"
+        aElement.setAttribute("aria-label", `Learn more about ${item.alt}`)
 
         let imgElement = document.createElement("img")
         imgElement.src = item.imgSrc
@@ -18,7 +20,8 @@ document.addEventListener("DOMContentLoaded", function () {
         imgElement.height = "40"
 
         aElement.appendChild(imgElement)
-        ulElement.appendChild(aElement)
+        liElement.appendChild(aElement)
+        ulElement.appendChild(liElement)
       })
     })
     .catch((error) => console.error("Error:", error))
