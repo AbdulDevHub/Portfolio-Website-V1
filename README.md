@@ -1,7 +1,7 @@
 # Abdul Hadi Khan Portfolio Website (V1)
 
 <a href="https://abdulhadikhan.netlify.app/" target="_blank" rel="noreferrer"> 
-  <img height="400" src="./images/Screenshot.png">
+  <img height="400" src="./images/Screenshot.avif">
 </a>
 
 ## Overview

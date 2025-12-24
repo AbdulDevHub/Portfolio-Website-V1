@@ -26,7 +26,7 @@
     },
     {
         "href": "https://github.com/",
-        "imgSrc": "images/Dark Logos/GitHub.png",
+        "imgSrc": "images/Dark Logos/GitHub.avif",
         "alt": "github"
     },
     {
@@ -61,7 +61,7 @@
     },
     {
         "href": "https://www.mysql.com/",
-        "imgSrc": "images/Dark Logos/MySql.png",
+        "imgSrc": "images/Dark Logos/MySql.avif",
         "alt": "mysql"
     },
     {
@@ -71,7 +71,7 @@
     },
     {
         "href": "https://www.netlify.com/",
-        "imgSrc": "images/Dark Logos/Netlify.png",
+        "imgSrc": "images/Dark Logos/Netlify.avif",
         "alt": "netlify"
     },
     {
@@ -96,7 +96,7 @@
     },
     {
         "href": "https://prismic.io",
-        "imgSrc": "images/Dark Logos/Prismic.png",
+        "imgSrc": "images/Dark Logos/Prismic.avif",
         "alt": "prismic"
     },
     {
@@ -126,7 +126,7 @@
     },
     {
         "href": "https://threejs.org/",
-        "imgSrc": "images/Dark Logos/Threejs.png",
+        "imgSrc": "images/Dark Logos/Threejs.avif",
         "alt": "three.js"
     },
     {
@@ -136,12 +136,12 @@
     },
     {
         "href": "https://unity.com/",
-        "imgSrc": "images/Dark Logos/Unity.png",
+        "imgSrc": "images/Dark Logos/Unity.avif",
         "alt": "unity"
     },
     {
         "href": "https://vercel.com/",
-        "imgSrc": "images/Dark Logos/Vercel.png",
+        "imgSrc": "images/Dark Logos/Vercel.avif",
         "alt": "vercel"
     },
     {
