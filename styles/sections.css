@@ -22,7 +22,8 @@ button,
   cursor: url("../images/Cursor/pointer.svg"), auto !important;
 }
 
-input, textarea {
+input,
+textarea {
   cursor: url("../images/Cursor/i-beam.svg"), auto !important;
 }
 
@@ -232,6 +233,36 @@ nav ul li a:hover::after {
   width: 35px;
   height: 35px;
   object-fit: cover;
+}
+
+#skills ul a {
+  position: relative;
+  display: inline-block;
+}
+
+#skills ul a::after {
+  content: attr(data-tooltip);
+  position: absolute;
+  bottom: 120%;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #222;
+  color: #fea600;
+  padding: 4px 8px;
+  border-radius: 4px;
+  border: 1px solid #fea600;
+  font-size: 12px;
+  white-space: nowrap;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.2s ease, transform 0.2s ease;
+}
+
+#skills ul a:hover::after {
+  opacity: 1;
+  transform: translateX(-50%) translateY(-2px);
 }
 
 /*------------------ Expertise Section -----------*/

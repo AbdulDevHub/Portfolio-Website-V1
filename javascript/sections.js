@@ -12,6 +12,7 @@ document.addEventListener("DOMContentLoaded", function () {
         aElement.target = "_blank"
         aElement.rel = "noreferrer"
         aElement.setAttribute("aria-label", `Learn more about ${item.alt}`)
+        aElement.setAttribute("data-tooltip", item.alt.toUpperCase())
 
         let imgElement = document.createElement("img")
         imgElement.src = item.imgSrc

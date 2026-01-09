@@ -7,7 +7,7 @@
     {
         "href": "https://www.w3schools.com/css/",
         "imgSrc": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg",
-        "alt": "css3"
+        "alt": "css"
     },
     {
         "href": "https://www.figma.com/",
@@ -32,7 +32,7 @@
     {
         "href": "https://www.w3.org/html/",
         "imgSrc": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg",
-        "alt": "html5"
+        "alt": "html"
     },
     {
         "href": "https://www.jetbrains.com/idea/",
@@ -77,7 +77,7 @@
     {
         "href": "https://nextjs.org/",
         "imgSrc": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg",
-        "alt": "nextjs"
+        "alt": "next.js"
     },
     {
         "href": "https://www.photoshop.com/en",
@@ -147,7 +147,7 @@
     {
         "href": "https://vitejs.dev/",
         "imgSrc": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vitejs/vitejs-original.svg",
-        "alt": "vitejs"
+        "alt": "vite.js"
     },
     {
         "href": "https://code.visualstudio.com/",
